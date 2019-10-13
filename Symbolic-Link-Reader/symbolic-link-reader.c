@@ -18,6 +18,7 @@ int main(int argc, char* argv[])
         exit(1);
     }
 
+    // readlink dose not end the string
     buf[nread] = '\0';
     printf("Symbolic Link: %s\n", buf);
 
